@@ -1,0 +1,74 @@
+/*
+   Template Name: Produstry
+   Author: Creative IT
+   Template Designer: Zahid Sir
+   Author URI:
+   Version:1.0.0
+
+
+   Table of Content
+   ==============================
+   1) Topbar
+   2) Navbar
+*/
+
+/* Common Css Start */
+body {
+   font-family: "Open Sans", sans-serif;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ small,
+ ul,
+ ol {
+   margin: 0;
+   padding: 0;
+ }
+ ul,
+ ol {
+   list-style-type: none;
+ }
+ /* Common Css End */
+/* topbar section start */
+#topBar{
+   background: orange;
+}
+#topBar .topbar_mid{
+   background-color: #333;
+   color: white;
+   transform: skew(-30deg);
+   
+}
+#topBar .topbar_mid h2{
+   transform: skew(30deg);
+   text-align: center;
+}
+#topBar ul li{
+ padding: 15px;
+}
+/* topbar section End */
+/* Nav Section Css Start */
+#nav {
+   background-color: white;
+ }
+ #nav #main_menu ul li a {
+   font-size: 12px;
+   font-weight: 800;
+   color: black;
+   padding: 12px 25px;
+   margin: 2px 0;
+   -webkit-transition: all linear 0.5s;
+   -o-transition: all linear 0.5s;
+   transition: all linear 0.5s;
+ }
+ #nav #main_menu ul li:hover a {
+   background-color: yellow;
+   color: green;
+   border-radius: 50px;
+ }
+ /* //Nav Section Css End */
